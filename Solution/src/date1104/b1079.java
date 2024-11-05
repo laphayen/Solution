@@ -70,7 +70,7 @@ public class b1079 {
 		if (people % 2 == 0) {
 			
 			// 순서대로 한 명씩 죽여본다.
-			for (int i = 0; i < people; i++) {
+			for (int i = 0; i < n; i++) {
 				
 				if (v[i] == false || mafia == i) {
 					continue;
